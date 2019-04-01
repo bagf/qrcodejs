@@ -60,10 +60,10 @@
         }
         buttonName();
     });
-    reset.onclick = (function() {
+    resetBtn.onclick = (function() {
         const pin = prompt("his QR code will clear all settings and reset the device. Enter your device pin");
         if (pin !== null) {
-            makeCode(pin, "reset device");
+            makeCode(`RESET.${pin}`, "reset device");
         }
     });
     buttonName();
