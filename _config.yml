@@ -1,0 +1,8 @@
+title: qrcode.js
+description: Cross-browser QRCode generator for javascript
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-minimal
+
+gems:
+  - jekyll-mentions
