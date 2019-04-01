@@ -15,6 +15,7 @@
         height: 300,
         colorDark : "#000000",
         colorLight : "#ffffff",
+        correctLevel : QRCode.CorrectLevel.L
     });
     qrCode.clear();
     const makeCode = (function(content, description) {
