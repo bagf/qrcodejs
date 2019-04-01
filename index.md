@@ -1,4 +1,4 @@
-<script src="/qrcode.min.js"></script>
+<script src="/qrcodejs/qrcode.min.js"></script>
 <script>
 new QRCode(document.getElementById("qrcode"), {
 	text: "http://jindo.dev.naver.com/collie",
