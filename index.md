@@ -11,8 +11,8 @@
     const codeDesc = document.getElementById("code-desc");
     const qrCode = new QRCode(qr, {
         text: "test",
-        width: 128,
-        height: 128,
+        width: 300,
+        height: 300,
         colorDark : "#000000",
         colorLight : "#ffffff",
     });
