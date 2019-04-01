@@ -1,5 +1,7 @@
+<p><a id="setup-btn" href="#"></a></p>
+<p><a id="reset-btn" href="#">Reset Unit</a></p>
+<p><a href="http://18.208.169.168:5000/">Remote Arm/Disarm</a></p>
 <script src="/qrcodejs/qrcode.min.js"></script>
-
 <script>
 (function() {
     document.getElementsByTagName("header")[0].innerHTML = '<p id="code-desc"></p><div id="qrcode"></div>';
@@ -67,7 +69,3 @@
     buttonName();
 })();
 </script>
-
-<p><a id="setup-btn" href="#"></a></p>
-<p><a id="reset-btn" href="#">Reset Unit</a></p>
-<p><a href="http://18.208.169.168:5000/">Remote Arm/Disarm</a></p>
